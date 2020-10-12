@@ -14,13 +14,15 @@ c) `O(n)` - This will take on the order of _n_ number of operations to complete.
 
 ```
 start at the middle floor of this n-story building:
-    drop an egg and if it breaks:
-        go down one floor
-        broken += 0
 
-    if it doesn't  break:
-        go up one floor
-        broken += 1
+        drop five eggs for good measure:
+            if average broken is less than the average not:
+                go up one floor
+                broken += broken
+            else
+                go up one floor
+                broken += broken
+
 ```
 
 Runtime --> O(n)? You're just going up and down the stairs until you create an ocean of yolk.
