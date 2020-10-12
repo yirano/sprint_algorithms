@@ -12,4 +12,15 @@ c) `O(n)` - This will take on the order of _n_ number of operations to complete.
 
 ## Exercise II
 
+```
+start at the middle floor of this n-story building:
+    drop an egg and if it breaks:
+        go down one floor
+        broken += 0
 
+    if it doesn't  break:
+        go up one floor
+        broken += 1
+```
+
+Runtime --> O(n)? You're just going up and down the stairs until you create an ocean of yolk.
